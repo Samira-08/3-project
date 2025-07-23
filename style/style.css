@@ -1,0 +1,270 @@
+body{
+  background-color: #fff;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+.header {
+  font-family:'Montserrat', sans-serif;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  
+}
+.header p {
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+  
+
+}
+a {
+  color: black;
+   text-decoration: none;
+}
+ul{
+  list-style: none;}
+  .header-nav {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+.header-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  gap: 30px;  
+}
+.icons {
+display: flex;
+justify-content: end;
+font-size: 20px;
+color: black;
+right: 0;
+top: 0;
+gap: 35px;
+margin-left: 300px;
+
+}
+
+.header-menu {
+
+  width: 1440px;
+}
+.img-logo {
+  width: 10px;
+  height: 10px;
+}
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.image-fon{
+  max-width: 100%;
+  
+}
+#img-first-container{
+  background-image: url(../image/stulch1.jpg);
+  width:100%;
+  min-height: 717px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 120px 40px 80px;
+  padding-bottom: 100px;
+}
+
+.info-main {
+  background-color:#FFF3E3;
+  width: 561px;
+  height: 395px;
+  
+}
+.btn-menu{
+  width: 222px;
+  height: 74px;
+  gap: 10px;
+  left: 72px;
+  margin-left: 35px;
+  background-color: #B88E2F;
+  border: none;
+  color: #fff;
+  transition-property: color;
+  transition-duration: 0.5s,0.5s;
+
+}
+.btn-menu:hover {
+  background-color: #977e42;
+  transition-property: color;background-color: #977e42;;
+  transition-duration:0.5s,0.5s;
+  transition-timing-function:linear;
+  transform: translateY(-10px);
+
+}
+.container h2 {
+  padding-left:20px;
+  margin: 20px;
+  color: #B88E2F;
+  font-size: 30px;
+ 
+}
+.container h4 {
+  padding-left: 20px;
+  margin: 20px;
+  
+}
+
+
+
+.footer-info {
+  padding: 1px;
+}
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #fff;
+  color: black;
+  display: flex;}
+.footer.container {
+  display: flex;
+  flex-direction: column;
+
+
+}
+  .img-logo {
+    width: 40px;;
+    height:40px;
+  }
+  
+
+.items-links li {
+  list-style: none;
+}
+.items-help li {
+  list-style: none;
+}
+.container-card {
+  display: flex;
+flex: wrap;
+gap: 230px;
+}
+.img-card {
+  width: 50px;
+  text-align: center;
+  padding-left: 131px;
+ padding-top: 110px;
+}
+.our-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-image: none;
+  padding: 70px;
+}
+.product-gr {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.products-card {
+background-color: rgb(251, 251, 250);
+width: 285px;
+height: 446px;
+padding: 10px;
+text-align: center;
+box-sizing: border-box;
+}
+
+
+
+p {
+  padding-left: 20px;
+}
+span {
+  padding-left: 20px;
+}
+.products-card {
+ 
+  gap:20px;
+  padding: 20px;
+  }
+.products-card img {
+ max-width: 100%;
+ height: auto;
+ height: auto;
+ object-fit: cover;
+}
+.footer-email {
+  text-decoration: underline;
+}
+.footer-email input {
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+   display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+  border: none;
+  border-bottom:2px solid black ;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 70px;
+  flex-wrap: wrap;
+}
+.footer-item{
+ flex: 1;
+ min-width: 280px;
+}
+h5 {
+color:#9F9F9F
+}
+p {
+  color:#9F9F9F
+}
+
+li {
+  list-style: none;
+}
+.footer-text {
+  color: black;
+  width: 1240px;
+  height: 59px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 10px;
+margin-top: 15px;
+text-align: left;
+font-size: 10px;
+}
+.btn-show {
+display: flex;
+justify-content: center;
+  
+}
+.products-card img {
+  width: 100%;
+  height: 200px;
+  
+}
+.footer-item-list {
+padding: 10px;
+}
